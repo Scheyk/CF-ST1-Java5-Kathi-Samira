@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * this Class is to create a nice Table output
+ */
+
 
 public class Table {
 
