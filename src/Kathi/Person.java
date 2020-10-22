@@ -32,7 +32,7 @@ public class Person {
     }
 
     public String getlName(){
-        return this.lName;
+        return this.lName.toUpperCase();
     }
 
     public void setlName(){

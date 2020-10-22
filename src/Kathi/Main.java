@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Age: " + two.getAge());
         System.out.println("first Name: " + two.getfName());
         System.out.println("last name: " + two.getlName());
+        System.out.println("last name: " + one.getlName().toUpperCase());
 
 
     }
