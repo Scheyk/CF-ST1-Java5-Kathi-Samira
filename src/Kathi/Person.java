@@ -16,10 +16,34 @@ public class Person {
 
     }
 
-    static void getFullName(){
-        Person newPerson = new Person();
-        System.out.println("First Name: " + newPerson.fName);
-        System.out.println("Last Name: " + newPerson.lName);
-        System.out.println("Age: " + newPerson.age);
+    public void getFullName(){
+        //Person newPerson = new Person();
+        System.out.println("First Name: " + this.fName);
+        System.out.println("Last Name: " + this.lName);
+        System.out.println("Age: " + this.age);
+    }
+
+    public String getfName(){
+        return  this.fName;
+    }
+
+    public void setfName(){
+        this.fName = fName;
+    }
+
+    public String getlName(){
+        return this.lName;
+    }
+
+    public void setlName(){
+        this.lName = lName;
+    }
+
+    public Integer getAge(){
+        return this.age;
+    }
+
+    public void setAge(){
+        this.age = age;
     }
 }
