@@ -16,7 +16,27 @@ public class BankAccount {
 
     }
 
-    static void setBalance(){
+    public void setBalance(){
+        this.accountBalance = accountBalance;
+    }
 
+    public Integer getBalance(){
+        return this.accountBalance;
+    }
+
+    public void setAdd(){
+        this.addMoney = addMoney;
+    }
+
+    public Integer getAdd(){
+        return this.addMoney;
+    }
+
+    public void setWithdraw(){
+        this.withdrawMoney = withdrawMoney;
+    }
+
+    public Integer getWithdraw(){
+        return this.withdrawMoney;
     }
 }
