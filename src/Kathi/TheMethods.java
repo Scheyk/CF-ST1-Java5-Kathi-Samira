@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TheMethods {
 
     static void fillPersons(){
-        char[] allPersons = new char[3];
+        char [] allPersons = new char[3];
         Scanner in = new Scanner(System.in);
 
         for(int i = 0; i < allPersons.length; i++){
@@ -17,11 +17,9 @@ public class TheMethods {
             int age = in.nextInt();
         }
 
-        for (char element : allPersons) {
+        for (int i = 0; i < allPersons.length; i++) {
             Person.getFullName();
         }
-
-
     }
 
 }
